@@ -1,0 +1,35 @@
+/* src/components/CardWithActions.css */
+.card-with-actions {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Light border */
+  backdrop-filter: blur(10px); /* Glass effect */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  color: #fff; /* White text */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow */
+  transition: box-shadow 0.3s ease; /* Smooth shadow transition */
+}
+
+.card-with-actions:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Increase shadow on hover */
+}
+
+.card-with-actions .card-actions {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2); /* Light border */
+}
+
+.card-actions button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.card-actions button:hover {
+  background-color: #0056b3;
+}

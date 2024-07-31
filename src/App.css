@@ -1,0 +1,14 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  background-color: #121212; /* Dark background for the entire app */
+  color: #fff; /* White text */
+  padding: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Space between cards */
+}

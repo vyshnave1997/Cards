@@ -1,0 +1,27 @@
+/* src/components/CardWithBadge.css */
+.card-with-badge {
+  position: relative;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Light border */
+  backdrop-filter: blur(10px); /* Glass effect */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  color: #fff; /* White text */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow */
+  transition: box-shadow 0.3s ease; /* Smooth shadow transition */
+}
+
+.card-with-badge:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Increase shadow on hover */
+}
+
+.card-with-badge .card-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-size: 0.875rem;
+}

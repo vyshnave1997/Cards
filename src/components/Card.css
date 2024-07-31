@@ -1,0 +1,27 @@
+/* src/components/Card.css */
+.card {
+  border-radius: 8px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Light border */
+  backdrop-filter: blur(10px); /* Glass effect */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  color: #fff; /* White text */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow */
+  width: 300px;
+  margin: 20px;
+  transition: box-shadow 0.3s ease; /* Smooth shadow transition */
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Increase shadow on hover */
+}
+
+.card-header,
+.card-footer {
+  padding: 15px;
+}
+
+.card-content {
+  padding: 15px;
+}
